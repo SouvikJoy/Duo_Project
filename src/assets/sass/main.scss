@@ -1,0 +1,87 @@
+html {
+  font-family:
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+#App {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header {
+  z-index: 1;
+}
+.bg-box {
+  background: linear-gradient(321deg, rgba(60, 143, 183, 0.2) 75.66%, rgba(255, 255, 255, 0.2) 96.75%), url('~/assets/bg-box.png');
+}
+.heading_1 {
+  font-family: "SF Pro Rounded", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #02eae1;
+}
+.heading_2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.box_1 {
+  backdrop-filter: blur(140px);
+  border-radius: 24.5221px;
+  width: 864px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-repeat: no-repeat;
+}
+.glass {
+  width: 267.75px;
+  height: 358.01px;
+  left: 400.25px;
+  top: 1011px;
+  background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(140px);
+  border-radius: 24.5221px;
+  background-size: cover;
+}
+.package_box {
+  z-index: 15;
+}
+.sales {
+  background: linear-gradient(126.6deg, rgba(255, 255, 255, 0.12) 28.69%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(140px);
+  border-radius: 24.5221px;
+  background-size: cover;
+}
+.social_icon {
+  width: 60px;
+}
+p {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: chartreuse;
+}
